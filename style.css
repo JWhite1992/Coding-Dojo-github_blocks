@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 700px;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 10px;
+}
+.side-nav{
+    width: 650px;
+    height: 220px;
+    background-color: aqua;
+    padding: 5px;
+}
+.side-nav1{
+    width: 650px;
+    height: 220px;;
+    background-color: coral;
+    padding: 5px;
+}
+.side-nav2{
+    width: 650px;
+    height: 200px;
+    background-color: white;
+    padding: 5px;
+}
+.row{
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 200px;
+}
+.copyright{
+    padding-bottom: 15px;
+    text-align: center;
+}
